@@ -21,7 +21,7 @@ class CashRegister
     quantity.times do
       self.items<<title
     end
-    @last_price = price
+    @last_price = price*quantity
     @last_title = title
   end
 

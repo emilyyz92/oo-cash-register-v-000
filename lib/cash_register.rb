@@ -1,6 +1,6 @@
 class CashRegister
   attr_accessor :cash_register, :title, :price, :last_total, :last_title
-  attr_reader :cash_register_with_discount
+  attr_reader :discount
   attr_writer :total, :items
 
 

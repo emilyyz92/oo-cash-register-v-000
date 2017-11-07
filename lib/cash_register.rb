@@ -1,5 +1,5 @@
 class CashRegister
-  attr_accessor :cash_register, :title, :price
+  attr_accessor :cash_register, :title, :price, :last_price, :last_title
   attr_reader :cash_register_with_discount
   attr_writer :total, :items
 
@@ -36,4 +36,7 @@ class CashRegister
   def items
     @items
   end
+
+  def void_last_transaction
+    
 end

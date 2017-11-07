@@ -7,6 +7,7 @@ class CashRegister
   def initialize(discount = 20)
     @cash_register_with_discount = discount
     self.total = 0
+    self.items = []
   end
 
   def total
@@ -29,5 +30,6 @@ class CashRegister
     end
   end
 
-  
+  def items
+
 end

@@ -1,5 +1,5 @@
 class CashRegister
-  attr_accessor :cash_register
+  attr_accessor :cash_register, :title, :price
   attr_reader :cash_register_with_discount
   attr_writer :total
 

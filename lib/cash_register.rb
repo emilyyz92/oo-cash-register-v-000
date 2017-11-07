@@ -1,7 +1,7 @@
 class CashRegister
   attr_accessor :cash_register, :title, :price
   attr_reader :cash_register_with_discount
-  attr_writer :total
+  attr_writer :total, :items
 
 
   def initialize(discount = 20)
